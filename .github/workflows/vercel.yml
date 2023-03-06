@@ -9,6 +9,8 @@ on:
 
 jobs:
   preview-environment:
+    permissions:
+      pull-requests: write
     name: "Build and Deploy Preview Environment"
     runs-on: ubuntu-latest
     env:
