@@ -9,6 +9,8 @@ on:
 
 jobs:
   preview-environment:
+    permissions:
+      issues: write
     name: "Build and Deploy Preview Environment"
     runs-on: ubuntu-latest
     env:
